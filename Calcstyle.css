@@ -1,0 +1,134 @@
+
+body,html{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.title{
+  letter-spacing: 5px;
+  text-shadow: 
+ 0 0 5px #16ff5c,
+ 0 0 5px #42ff84,
+ 0 0 15px#80ff25,
+ 0 0 9px #8fffbf
+ ;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: "Tektur",cursive;
+}
+
+#calcContainer{
+    box-shadow: 
+ 0 0 5px #02e1ff,
+ 0 0 5px #7cfcfe,
+ 0 0 13px#01ccff,
+ 0 0 16px #2babbe
+ ;
+  border: 2px solid white;
+  align-items: center;
+  align-items: center;
+  width: 540px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,140px);
+  border-radius: 10px;
+  padding: 10px;
+   overflow: hidden;
+ text-overflow: clip;
+}
+
+#calcContainer div{
+  cursor: pointer;
+  margin: 8px;
+  height: 50px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 29px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#calcContainer div:hover{
+       box-shadow: 
+ 0 0 5px #ff0202,
+ 0 0 5px #db1a1a,
+ 0 0 10px#ff2020,
+ 0 0 12px #ea3b3b
+ ;
+  background-color: rgba(255, 20, 20, 0.3);
+
+}
+#calcContainer:hover{
+border-radius: 25px;
+transition: 1s;
+}
+
+#resultDisplay{
+   box-shadow: 
+ 0 0 5px #0698f2,
+ 0 0 5px #7ccafe,
+ 0 0 18px#037b99,
+ 0 0 19px #0195ff
+ ;
+ overflow: hidden;
+ text-overflow: ellipsis;
+  margin: auto;
+  height: 100px;
+  width: 520px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-size: 47px;
+  font-family: "Merienda";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: black;
+}
+
+#resultDisplay:hover{
+  background-color: rgb(105 255 225 /0.09);
+  transition: 1s;
+       box-shadow: 
+ 0 0 5px #7bffb6,
+ 0 0 5px #21eca9,
+ 0 0 18px#05b799,
+ 0 0 15px #3aa680
+ ;
+}
+
+#clearBtn{
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: black;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(153, 50, 255);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+#clearBtn:hover{
+background-color: #4a3884;
+        box-shadow: 
+ 0 0 5px #3654ff,
+ 0 0 5px #7146ff,
+ 0 0 18px#733efa,
+ 0 0 15px #9e4eff
+ ;
+}
